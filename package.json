@@ -1,0 +1,42 @@
+{
+  "name": "web3-starter-kit",
+  "version": "1.0.0",
+  "description": "web3-starter-kit — A beginner-friendly Web3 skill suite for Claude Code: safety scoring, smart money signals, guided swaps, and paper trading simulator powered by onchainos",
+  "keywords": [
+    "claude-code",
+    "skills",
+    "okx",
+    "onchainos",
+    "web3",
+    "defi",
+    "beginner",
+    "safe",
+    "swap",
+    "token",
+    "blockchain",
+    "smart-money",
+    "cursor",
+    "opencode"
+  ],
+  "author": {
+    "name": "community"
+  },
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/web3-starter-kit.git"
+  },
+  "files": [
+    "skills/",
+    "AGENTS.md",
+    "CLAUDE.md",
+    ".claude-plugin/",
+    ".cursor-plugin/"
+  ],
+  "scripts": {
+    "postinstall": "echo '\\n  web3-starter-kit installed!\\n  Skills: web3-safe-guide, web3-trade-simulator\\n  Requires: onchainos CLI (https://github.com/okx/onchainos-skills)\\n'"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
