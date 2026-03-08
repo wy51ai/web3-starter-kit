@@ -1,0 +1,54 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "web3-starter-kit",
+  "description": "Beginner-friendly Web3 skill suite — safety scoring, smart money signals, guided swaps, and paper trading simulator powered by onchainos",
+  "owner": {
+    "name": "community"
+  },
+  "metadata": {
+    "description": "Wraps onchainos CLI into a safety-first Web3 experience for newcomers: safety score every token, track whale signals, discover trending coins, execute swaps step-by-step, and practice with a paper trading simulator"
+  },
+  "plugins": [
+    {
+      "name": "web3-starter-kit",
+      "source": "./",
+      "description": "Beginner Web3 toolkit — safety scoring (0–100), smart money / whale / KOL signal tracker, trending token discovery, safe swap guide, and paper trading simulator with decision scoring",
+      "version": "1.1.0",
+      "author": {
+        "name": "community"
+      },
+      "homepage": "https://github.com/your-username/web3-starter-kit",
+      "license": "Apache-2.0",
+      "keywords": [
+        "skills",
+        "okx",
+        "onchainos",
+        "web3",
+        "defi",
+        "beginner",
+        "safe",
+        "swap",
+        "token",
+        "blockchain",
+        "smart-money",
+        "paper-trading",
+        "simulator"
+      ],
+      "category": "web3",
+      "tags": [
+        "skills",
+        "beginner",
+        "safety",
+        "defi",
+        "swap",
+        "token",
+        "blockchain",
+        "smart-money",
+        "whale",
+        "paper-trading",
+        "simulator"
+      ],
+      "strict": false
+    }
+  ]
+}
