@@ -1,6 +1,9 @@
 {
-  "name": "web3-starter-kit",
+  "name": "@wy51ai/web3-starter-kit",
   "version": "1.0.0",
+  "publishConfig": {
+    "access": "public"
+  },
   "description": "web3-starter-kit — A beginner-friendly Web3 skill suite for Claude Code: safety scoring, smart money signals, guided swaps, and paper trading simulator powered by onchainos",
   "keywords": [
     "claude-code",
